@@ -1,0 +1,10 @@
+services:
+    JGI\DanishDates\Date\DayChain:
+        class: JGI\DanishDates\Date\DayChain
+
+    JGI\DanishDates\Date\NewYearsEve:
+        class: JGI\DanishDates\Date\NewYearsEve
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+

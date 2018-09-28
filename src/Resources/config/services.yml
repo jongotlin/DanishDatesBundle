@@ -1,0 +1,15 @@
+imports:
+    - { resource: day_services.yml }
+
+services:
+    JGI\DanishDates\Manager\DateManager:
+        class: JGI\SwedishDates\Manager\DateManager
+        arguments:
+            - '@JGI\DanishDates\Date\DayChain'
+
+    JGI\DanishDatesBundle\Twig\TwigExtensions:
+        class: JGI\DanishDatesBundle\Twig\TwigExtensions
+        arguments:
+            - '@JGI\DanishDates\Manager\DateManager'
+        tags:
+            - { name: twig.extension }
