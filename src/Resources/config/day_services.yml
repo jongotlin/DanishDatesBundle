@@ -2,9 +2,103 @@ services:
     JGI\DanishDates\Date\DayChain:
         class: JGI\DanishDates\Date\DayChain
 
+    JGI\DanishDates\Date\NewYearsDay:
+        class: JGI\DanishDates\Date\NewYearsDay
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\Shrovetide:
+        class: JGI\DanishDates\Date\Shrovetide
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\DaylightSavingTimeStart:
+        class: JGI\DanishDates\Date\DaylightSavingTimeStart
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\MaundyThursday:
+        class: JGI\DanishDates\Date\MaundyThursday
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\GoodFriday:
+        class: JGI\DanishDates\Date\GoodFriday
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\EasterSunday:
+        class: JGI\DanishDates\Date\EasterSunday
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\EasterMonday:
+        class: JGI\DanishDates\Date\EasterMonday
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\GreatPrayerDay:
+        class: JGI\DanishDates\Date\GreatPrayerDay
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\AscensionDay:
+        class: JGI\DanishDates\Date\AscensionDay
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\ConstitutionDay:
+        class: JGI\DanishDates\Date\ConstitutionDay
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\Pentecost:
+        class: JGI\DanishDates\Date\Pentecost
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\WhitMonday:
+        class: JGI\DanishDates\Date\WhitMonday
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\UNDay:
+        class: JGI\DanishDates\Date\UNDay
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\DaylightSavingTimeStop:
+        class: JGI\DanishDates\Date\DaylightSavingTimeStop
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\LuciaDay:
+        class: JGI\DanishDates\Date\LuciaDay
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\ChristmasEve:
+        class: JGI\DanishDates\Date\ChristmasEve
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\ChristmasDay:
+        class: JGI\DanishDates\Date\ChristmasDay
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\BoxingDay:
+        class: JGI\DanishDates\Date\BoxingDay
+        tags:
+            -  { name: jgi.danish_dates.day }
+
     JGI\DanishDates\Date\NewYearsEve:
         class: JGI\DanishDates\Date\NewYearsEve
         tags:
             -  { name: jgi.danish_dates.day }
 
-
+    # Sunday must be last
+    JGI\DanishDates\Date\Sunday:
+        class: JGI\DanishDates\Date\Sunday
+        tags:
+            -  { name: jgi.danish_dates.day }
