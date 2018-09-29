@@ -3,7 +3,7 @@ imports:
 
 services:
     JGI\DanishDates\Manager\DateManager:
-        class: JGI\SwedishDates\Manager\DateManager
+        class: JGI\DanishDates\Manager\DateManager
         arguments:
             - '@JGI\DanishDates\Date\DayChain'
 
