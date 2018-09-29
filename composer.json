@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "jongotlin/danish-dates": "dev-master",
+        "jongotlin/danish-dates": "^1.0",
         "jgi/swedish-dates": "^3.0",
         "jgi/swedish-dates-bundle": "^1.2",
         "twig/twig": "^2.0",
