@@ -2,7 +2,7 @@
 
 namespace JGI\DanishDatesBundle\DependencyInjection\Compiler;
 
-use JGI\SwedishDates\Date\DayChain;
+use JGI\DanishDates\Date\DayChain;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\Reference;
