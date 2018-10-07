@@ -97,6 +97,26 @@ services:
         tags:
             -  { name: jgi.danish_dates.day }
 
+    JGI\DanishDates\Date\FirstOfAdvent:
+        class: JGI\DanishDates\Date\FirstOfAdvent
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\SecondOfAdvent:
+        class: JGI\DanishDates\Date\SecondOfAdvent
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\ThirdOfAdvent:
+        class: JGI\DanishDates\Date\ThirdOfAdvent
+        tags:
+            -  { name: jgi.danish_dates.day }
+
+    JGI\DanishDates\Date\FourthOfAdvent:
+        class: JGI\DanishDates\Date\FourthOfAdvent
+        tags:
+            -  { name: jgi.danish_dates.day }
+
     # Sunday must be last
     JGI\DanishDates\Date\Sunday:
         class: JGI\DanishDates\Date\Sunday
