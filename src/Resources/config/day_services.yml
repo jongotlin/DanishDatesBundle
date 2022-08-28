@@ -7,11 +7,6 @@ services:
         tags:
             -  { name: jgi.danish_dates.day }
 
-    JGI\DanishDates\Date\Shrovetide:
-        class: JGI\DanishDates\Date\Shrovetide
-        tags:
-            -  { name: jgi.danish_dates.day }
-
     JGI\DanishDates\Date\DaylightSavingTimeStart:
         class: JGI\DanishDates\Date\DaylightSavingTimeStart
         tags:
