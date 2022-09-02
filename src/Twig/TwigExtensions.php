@@ -13,8 +13,8 @@ class TwigExtensions extends \JGI\SwedishDatesBundle\Twig\TwigExtensions
     {
         return [
             new TwigFilter('danish_date_name', [$this, 'dateName']),
-            new TwigFilter('holiday', [$this, 'holiday']),
-            new TwigFilter('red_day', [$this, 'redDay']),
+            new TwigFilter('danish_holiday', [$this, 'holiday']),
+            new TwigFilter('danish_red_day', [$this, 'redDay']),
         ];
     }
 }
